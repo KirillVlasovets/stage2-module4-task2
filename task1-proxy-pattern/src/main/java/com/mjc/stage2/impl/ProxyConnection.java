@@ -11,7 +11,6 @@ public class ProxyConnection implements Connection {
     }
 
     public void reallyClose() {
-        realConnection = (RealConnection) ConnectionPool.getInstance().getConnection();
         realConnection.close();
         ConnectionPool.getInstance().destroyPool();
     }
