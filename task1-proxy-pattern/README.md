@@ -2,7 +2,7 @@
 
 ### Written code overview
 
-**ConnectionPool** (com.mjc.stage2.impl) pool which contains all created real connections.
+**ConnectionPool** (com.mjc.stage2.impl) poll which contains all created real connections.
 **RealConnection** (com.mjc.stage2.impl) connection which implements interface Connection (com.mjc.stage2) and used in
 the connection pool.
 
