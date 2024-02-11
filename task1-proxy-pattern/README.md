@@ -2,8 +2,8 @@
 
 ### Written code overview
 
-**ConnectionPool** (com.mjc.stage2.impl) poll which contains all created real connections.
-**RealConnection** (com.mjc.stage2.impl) connection which implements interfaceConnection (com.mjc.stage2) and used in
+**ConnectionPool** (com.mjc.stage2.impl) pool which contains all created real connections.
+**RealConnection** (com.mjc.stage2.impl) connection which implements interface Connection (com.mjc.stage2) and used in
 the connection pool.
 
 ## Task - Implement proxy pattern for connection.
